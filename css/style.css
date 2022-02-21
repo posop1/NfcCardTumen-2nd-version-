@@ -446,9 +446,7 @@ header .panel {
     margin: 50px;
 }
 
-.last{
-    padding-bottom: 50px;
-}
+
 
 /*images*/
 .images {
@@ -1012,6 +1010,9 @@ header .panel {
     .inner1{
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .last{
+        padding-bottom: 50px;
     }
 }
 
