@@ -82,7 +82,7 @@ body {
 
 /*header*/
 .header {
-    background: url(../img/bg2.jpg);
+    background: url(../img/bg3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,6 +92,7 @@ body {
 
 header .panel {
     align-items: center;
+    display: flex;
 }
 
 .header .logo {
@@ -199,17 +200,24 @@ header .panel {
 
 .header .desc_block {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /* flex-wrap: wrap; */
     margin-top: 100px;
 }
 
 .header .desc_block .text {
-    width: 31%;
-    max-width: 436px;
+    /* width: 100%; */
+    /* max-width: 436px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .header .desc_block .suptitle {
+    text-align: center;
     font-size: 24px;
     line-height: 32px;
     color: rgba(17, 17, 17, 0.56);
@@ -221,6 +229,7 @@ header .panel {
 }
 
 .header .desc_block .title {
+    text-align: center;
     font-size: 72px;
     line-height: 80px;
     margin-bottom: 25px;
@@ -229,6 +238,8 @@ header .panel {
 
 .header .desc_block .btns {
     display: flex;
+    justify-content: center;
+    flex-direction: row;
     flex-wrap: wrap;
     max-width: 300px;
 }
@@ -237,8 +248,9 @@ header .panel {
     margin-right: 0px;
     font-size: 18px;
     line-height: 23px;
-    color: #161828;
+    color: white;
     border: 2px solid #9166F0;
+    background-color: #9166F0;
     padding: 15px 30px;
     border-radius: 20px;
     -webkit-transition: 0.3s;
@@ -249,9 +261,9 @@ header .panel {
 }
 
 .header .desc_block .btns .benf_btn:hover {
-    background-color: #9166F0;
+    background: none;
     border: 2px solid #9166F0;
-    color: white;
+    color: #161828;
 }
 
 .header .desc_block .btns .sec-a {
@@ -288,6 +300,7 @@ header .panel {
 /*benefits*/
 .benefits {
     padding-top: 140px;
+    padding-bottom: 140px;
 }
 
 .benefits .box {
@@ -348,7 +361,7 @@ header .panel {
 
 /*how*/
 .how {
-    padding-top: 140px;
+    /* padding-top: 140px; */
 }
 
 .how .wrapp {
@@ -384,7 +397,6 @@ header .panel {
 
 .how .wrapp .con .item {
     width: 100%;
-    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -470,6 +482,10 @@ header .panel {
 }
 
 /*application*/
+
+.application{
+    margin-top: 140px;
+}
 
 .application .wrap {
     background: #000;
@@ -592,7 +608,7 @@ header .panel {
 
 .quest_box {
     width: 90%;
-    max-width: 965px;
+    max-width: 1240px;
     margin-left: auto;
     margin-right: auto;
 }
