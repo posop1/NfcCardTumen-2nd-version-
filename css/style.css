@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 * {
     margin: 0;
@@ -38,7 +39,7 @@ body {
 }
 
 .container1 {
-    max-width: 1470px;
+    /* max-width: 1270px; */
     width: 100%;
     margin: 0 auto;
 }
@@ -88,19 +89,22 @@ body {
     background-size: cover;
     min-height: 100vh;
     padding-top: 10px;
+    color: white;
 }
 
 header .panel {
     align-items: center;
     display: flex;
+    
 }
 
 .header .logo {
     font-weight: 800;
     font-size: 48px;
-    color: #161828;
+    color: white;
     width: 19%;
     max-width: 228px;
+    
 }
 
 .header .nav {
@@ -111,7 +115,7 @@ header .panel {
 .header .nav .nav_link {
     font-size: 18px;
     line-height: 23px;
-    color: #161828;
+    color: white;
     /*padding-right: 25px;*/
     margin-left: 12px;
     margin-right: 12px;
@@ -130,7 +134,7 @@ header .panel {
 }
 
 .header .nav .nav_link:hover {
-    color: #9166F0;
+    color: rgba(255, 255, 255, 0.56);
 }
 
 .header .nav .nav_link::before {
@@ -166,20 +170,20 @@ header .panel {
     font-weight: 500;
     font-size: 18px;
     line-height: 23px;
-    color: #161828;
+    color: white;
 }
 
 .header .info .contacts p {
     font-weight: 500;
     font-size: 16px;
     line-height: 23px;
-    color: #161828;
+    color: white;
 }
 
 .header .info .inst {
     font-size: 18px;
     line-height: 23px;
-    color: #161828;
+    color: white;
     border: 2px solid #9166F0;
     padding: 10px 20px;
     border-radius: 20px;
@@ -220,7 +224,7 @@ header .panel {
     text-align: center;
     font-size: 24px;
     line-height: 32px;
-    color: rgba(17, 17, 17, 0.56);
+    color: rgba(255, 255, 255, 0.56);
     margin-bottom: 25px;
 }
 
@@ -263,14 +267,14 @@ header .panel {
 .header .desc_block .btns .benf_btn:hover {
     background: none;
     border: 2px solid #9166F0;
-    color: #161828;
+    color: white;
 }
 
 .header .desc_block .btns .sec-a {
     margin-right: 0px;
     font-size: 18px;
     line-height: 23px;
-    color: #161828;
+    color: white;
     border: 2px solid #9166F0;
     padding: 15px 30px;
     border-radius: 20px;
@@ -781,6 +785,11 @@ header .panel {
 /*menu mob*/
 
 @media(max-width: 1600px) {
+    .header .panel{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
     .header .nav {
         display: none;
     }
@@ -797,7 +806,7 @@ header .panel {
 
 @media(max-width: 1380px) {
     .header .desc_block .text {
-        width: 45%;
+        /* width: 45%; */
         max-width: 100%;
         margin-bottom: 20px;
     }
