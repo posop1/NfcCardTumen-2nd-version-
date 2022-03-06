@@ -495,6 +495,62 @@ header .panel {
     min-height: 650px;
 }
 
+
+
+
+.pocket{
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: center;
+    margin-top: 140px;
+    /* margin: 0 auto;  */
+}
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 0 auto;  */
+    justify-content: center;
+    max-width: 1200px;
+    width: 100%;
+}
+.itm{
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 25px;
+}
+.imgpocket{
+    max-width: 350px;
+    max-height: 350px;
+    height: 100%;
+    width: 100%;
+}
+.itm h4{
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    color: #9166F0;
+}
+.itm p{
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    color: rgba(17,17,17,.56);
+}
+.itm a{
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(17,17,17,.56);
+    border-bottom: 1px solid rgba(17,17,17,.56);
+    width: 125px;
+}
+.price{
+    margin-left: 163px;
+    color: black;
+    /* color: #9166F0; */
+}
 /*application*/
 
 .application{
