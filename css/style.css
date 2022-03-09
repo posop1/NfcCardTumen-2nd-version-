@@ -560,7 +560,7 @@ header .panel {
     width: 125px;
 }
 .price{
-    margin-left: 163px;
+    float: right;
     color: black;
     /* color: #9166F0; */
 }
